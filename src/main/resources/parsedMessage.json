@@ -7,15 +7,15 @@
         "user_id": "<User ID goes here ...>"
     },
     "headers": {
-        "Return-Path": "<npryimak@unisender.com>",
+        "Return-Path": "<1@api.com>",
         "Subject": "<Readable UTF-8 text goes here ...>",
-        "From": "npryimak@unisender.com",
-        "To": "vbrusylovets@unisender.com",
-        "Bcc": "obrychuk@unisender.com",
+        "From": "1@api.com",
+        "To": "v@api.com",
+        "Bcc": "c@api.com",
         "X-UNI-SMTPAPI": ""
     },
     "content": {
-        "text": "Поскольку Юникор читает прикрепленные файлы из файловой системы или по URl, то необходимо сохранять файлы в файловой системе UniSender. Путь к файлу в файловой системе должен быть добавлен в поле attachments. Корень хранилища задаеться Java Adapter опцией при вызове. В JSON передаеться относительный путь (на это указывает то, что после file: идет два слеша). Относительный путь формируеться так: transactional/<user_id>/<счетчик файлов по порядку вхождения>_<имя файла>",
+        "text": "Поскольку читает прикрепленные файлы из файловой системы или по URl, то необходимо сохранять файлы в файловой системе UniSender. Путь к файлу в файловой системе должен быть добавлен в поле attachments. Корень хранилища задаеться Java Adapter опцией при вызове. В JSON передаеться относительный путь (на это указывает то, что после file: идет два слеша). Относительный путь формируеться так: transactional/<user_id>/<счетчик файлов по порядку вхождения>_<имя файла>",
         "html": ""
     },
     "attachments": ["file://transactional/12345/1_кирилическое название файла.pdf"]
